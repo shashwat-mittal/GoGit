@@ -1,6 +1,6 @@
 # Hi 👋, I'm Neeraj Gupta
 
-From IIIT Allahabad
+From Indian Institute of Information Technology Allahabad
 
 2020 Batch ✌
 
