@@ -6,3 +6,9 @@ This is the link of the repo [GoGit_repo](https://github.com/varunKT001/GoGit)
 ## Issue : 223 
 #### Ques - What do you really understand from SSH keys? What are the advantages of using it?
 SSH keys are just pairs of a public and private key. The Private keys are used to encrypt/decrypt the user identity. SSH keys provide more security as well as convinience to the user.  
+
+## Issue : 332 
+#### Ques - How to edit the last commit message in git?
+There are two cases : 
+1. Changes not pushed : If changes are not pushed we can simply add --amend flag and it will amend last commit. 
+2. Changes are pushed : If Changes are pushed we need to --amend the and also force push the changes using the -f flag
