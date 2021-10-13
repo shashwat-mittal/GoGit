@@ -10,3 +10,8 @@ SSH Keys are <br>
 - like passwords, but more secure & don't require you to enter your username and password everytime.
 - come in pairs of a private key and a public key.
 For instance, my GitHub SSH Keys secure the connection between my local systems and my GitHub (remote).
+
+### Issue 332:
+#### How to edit the last commit message in git?
+- The last commit message in git can be edited by using the command <br>
+#### git commit --amend -m "correct message" -m "correct description"
