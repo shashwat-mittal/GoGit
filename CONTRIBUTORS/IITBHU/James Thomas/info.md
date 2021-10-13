@@ -10,3 +10,12 @@ To know more, <a href = "https://github.com/james3gh">click here</a>.
 - Data is encrypted (specially username and password is secured)
 - File transfer is much safer.
 - Through SSH key it doesn't require to enter usrnme and passwrd everytime we clone our repo.
+
+<br />
+
+**Ques** - How to edit the last commit message in git?
+
+**Ans** - To edit the last commit the user has made, use this command <br />
+git commit --amend -m "title" -m "description" . <br />
+You can also write the commit message in vi editor using amend command.
+However using this command makes a new commit hash, so one need to force push it to be reflected in remote repo.
