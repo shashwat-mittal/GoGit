@@ -6,3 +6,6 @@ Ques - What do you really understand from SSH keys? What are the advantages of u
 
 Ans - A SSH key is a substitute way of distinguishing ourself.It converts out password into 256 byte token which makes it impossibe to find by recurssion hence impossible to hack. SSH keys come two by two, a public key that is accessible to everyone and a private key that is put away just on your PC.It is used to encrypt it(by using public key) and decrypt(only by the private key) so that the info. between them gets secured, and pass through secured channel
  
+Ques - How to edit last commit message in git?
+
+Ans -  To edit our last commit message in git we have to use a command "git commit --amend", this will show us the last commit message int vim we can use insert and edit our commit message hit :wq exit the vim and hence last message is commited
