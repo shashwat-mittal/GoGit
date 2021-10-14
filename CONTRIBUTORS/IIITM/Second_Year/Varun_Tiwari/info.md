@@ -12,3 +12,6 @@ SSH keys are just pairs of a public and private key. The Private keys are used t
 There are two cases : 
 1. Changes not pushed : If changes are not pushed we can simply add --amend flag and it will amend last commit. 
 2. Changes are pushed : If Changes are pushed we need to --amend the and also force push the changes using the -f flag
+
+## Issue : 366
+First commit. We will go to the file state in first commit and checkout to new branch. then we will come to master and hard reset to the previous branch head.
