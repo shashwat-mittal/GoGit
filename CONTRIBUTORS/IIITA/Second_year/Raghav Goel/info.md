@@ -20,6 +20,9 @@ making it less vulnerable to hacking.
 
  How to delete a commit?
  I will use git reset --hard HEAD^ to delete the latest commit i will have made.
+ 
+ WebD
 
 
 OnlineResources
+https://www.udemy.com/course/the-web-developer-bootcamp/
