@@ -3,3 +3,4 @@ SSH keys basically helps us to keep our data secure.If my git gets hacked the ha
 
 
 how to edit commit type command git commit --amend then edit the commit in your text editor.
+programming knowledge - yt
