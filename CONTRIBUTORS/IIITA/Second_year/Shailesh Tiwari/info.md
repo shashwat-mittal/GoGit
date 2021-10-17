@@ -9,3 +9,4 @@ ssh keys are almost impossible to hack.
 
 How to edit last commit message using git?
 The git commit --amend command allows you to change the most recent commit message.
+I did webd from various sources like youtube, udemy, freecodecamp and so on... the most notable being freecodecamp
