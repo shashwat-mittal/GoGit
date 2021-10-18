@@ -33,3 +33,4 @@ in the editor(i -> insert mode, write the commit message and the press'ESC' and 
 OR
 
 git commit --amend -m"commit message"
+Answer 2> freecodecamp.org, reading docs
