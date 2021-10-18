@@ -23,7 +23,7 @@ Kinda, better than password authentication. why?
 SSH keys are difficult to compromised as these keys are longer in length (up to 4096 bits), that makes them hard to guess.
 
 Not like passwords, ssh keys aren't sent to the server, So even hackers exploit the server they can't access our accounts. 
-
+Answer 1> Web dev, blockchain
 
 ### Issue [332](https://github.com/opencodeiiita/GoGit/issues/332)
 git commit --amend (command to edit the last commit message) this will open up a editor (vim mostly) and we can edit the message 
