@@ -15,3 +15,35 @@ There are two cases :
 
 ## Issue : 366
 First commit. We will go to the file state in first commit and checkout to new branch. then we will come to master and hard reset to the previous branch head.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
