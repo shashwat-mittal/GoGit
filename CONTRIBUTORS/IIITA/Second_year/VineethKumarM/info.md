@@ -18,3 +18,22 @@ ANSWER: as per the instructions i will be making 2 commits and i will remove/del
 	1. make two commits
 	2. i will discard the second commit using te "git revert <commit hash>"coomand
 	3.but revert will itself make an extra commit so i will squash all this into first commit using git rebase and by replacing pick with squah keyword and then push again
+
+
+
+
+Ques - Resources that you follow to learn the above tech-stacks?
+ANSWER: Youtube, Udemy and sometimes articles/blogs on the Internet.
+
+
+
+
+
+
+
+
+
+
+
+
+
