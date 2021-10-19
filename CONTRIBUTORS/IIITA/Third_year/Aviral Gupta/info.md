@@ -27,9 +27,9 @@ Step 8: Merging new_branch using git merge new_branch
 Step 9: Force pushed the changes in the repo using git push --force origin main
 >>>>>>> a34788c (second commit)
 
+<b> Ques - 1 Which kind of development(s) do you do? (web/app/cc/etc).</b>
 
-
-
+Competitive Coding.
 
 <b>Ques - 2 Resources that you follow to learn the above tech-stacks (development)?</b>
 
