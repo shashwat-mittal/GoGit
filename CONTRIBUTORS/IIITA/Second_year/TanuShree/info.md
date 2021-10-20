@@ -14,3 +14,4 @@ How to edit commit message:-
 1)If the commit has not been pushed:-
  you can amend the commit message with the git commit --amend command.
 2)If the commit is pushed:Follow the above steps and use -push --force.
+Ans2->Coding in Flow, CodingWithMitch, etc.
