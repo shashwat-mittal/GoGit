@@ -36,3 +36,9 @@ Competitive Coding.<br>
 
 <b>Ques - 2 Resources that you follow to learn the above tech-stacks (development)?</b><br>
 Youtube, GFG for concepts and leetcode, codechef for practice.<br>
+
+
+<h3>Issue 409</h3>
+<b>Ques - 2 Is force push a good practice? Yes/No why? In most of the tasks on this repo, you used force push, so why this practice is Okay (neither good nor bad) in your case?</b><br>
+No, force push isn't a good practice because after force pushing all the changes made by other members will be lost. <br>
+Since, I have a local copy of the repo and I am the only one making changes to that repo, force pushing is okay.<br>
