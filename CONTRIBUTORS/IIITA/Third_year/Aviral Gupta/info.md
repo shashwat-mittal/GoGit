@@ -47,3 +47,9 @@ Since, I have a local copy of the repo and I am the only one making changes to t
 A task to modify the info.md to better looking and informative.(Will help in learning basics of HTML and also how to add tags and images in info.md)
 
 ```git tag``` command to give tags to specific commits.
+
+<b>Ques - What changes to your procedure of doing this task will happen if I told you to write all first three answers (Ans - 1, 2, 3) at the end of the file.</b>
+Since, there were only 3 answers, I made the changes manually by pasting each question again and making the commits.<br>
+If ```git add -p``` were to be used:<br>
+1. there would have been 2 hunks in this issue, and only the 2nd hunk would have to be manually edited.<br>
+2. if all the answers were at the end of the file, there would have been only one hunk, therefore this hunk would have to manually edited 3 times.
