@@ -1,3 +1,9 @@
+<h3>Issue 409</h3>
+<b>Ques - 1 How and why merge conflicts arise?</b><br>
+When git is unable to resolve the difference between two commits while merging those commits, a merge conflict occurs. <br>
+When all the changes in the two commits occur on different lines or in different files, Git will merge the changes without any conflicts. However, when there are changes in the same lines, git can't figure out which code to keep and which to discard and thus asks the user to resolve it.
+Amerge conflict can arise in merging a branch, rebasing a branch or cherry picking a commit.
+
 Hello! This is Aviral Gupta. I am a 3rd year student at IIITA.<br>
 Repo URL: https://github.com/aviralgupta752/GoGit.git
 
