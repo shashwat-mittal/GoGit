@@ -42,3 +42,8 @@ Youtube, GFG for concepts and leetcode, codechef for practice.<br>
 <b>Ques - 2 Is force push a good practice? Yes/No why? In most of the tasks on this repo, you used force push, so why this practice is Okay (neither good nor bad) in your case?</b><br>
 No, force push isn't a good practice because after force pushing all the changes made by other members will be lost. <br>
 Since, I have a local copy of the repo and I am the only one making changes to that repo, force pushing is okay.<br>
+
+<b>Ques - 3 Name anyone Git or Github topic on which any issue is not made on this repo. (Your answer should be different from others.</b>
+A task to modify the info.md to better looking and informative.(Will help in learning basics of HTML and also how to add tags and images in info.md)
+
+```git tag``` command to give tags to specific commits.
