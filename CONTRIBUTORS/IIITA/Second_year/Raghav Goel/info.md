@@ -14,7 +14,7 @@ making it less vulnerable to hacking.
  The following commands should be executed:-
  1.git commit --amend -m "New message" 
  2.git push --force repository-name branch-name
- If you are not sure whether someone has cloned your repository after your latest commit, instead of the second command, use
+ If you are not sure whether someone has cloned your repository after your latest commit, instead of the second command, us
  git push --force-with-lease repository-name branch-name
  This command will abort the push if there are any upstream changes to the repository, whereas the --force command will destroy any changes.
 
