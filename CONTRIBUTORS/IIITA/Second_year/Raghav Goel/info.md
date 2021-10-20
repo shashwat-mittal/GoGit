@@ -1,3 +1,4 @@
+Merge Conflicts arise when commits are added to the same place in a file, when they coincide.Suppose both the commits want to add changes to the same line, they are not overwritten by each other, and hence merge conflicts arise.
 Hey!<br>
 This is Raghav Goel.<br>
 My  <a href = ""https://github.com/raghavgoel25"">Github Profile</a>
@@ -26,3 +27,6 @@ making it less vulnerable to hacking.
 
 OnlineResources
 https://www.udemy.com/course/the-web-developer-bootcamp/
+Force push is generally not advisable. Suppose it is a common repository with many people working on it, force pushing, when changing the history of the remote can lead to other users being out of sync and not being able to collaborate properly. It was okay for use to do it because we alone worked on our repositories.
+
+Reordering a Commit.
