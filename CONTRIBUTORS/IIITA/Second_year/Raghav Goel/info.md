@@ -1,3 +1,4 @@
+Merge Conflicts arise when commits are added to the same place in a file, when they coincide.Suppose both the commits want to add changes to the same line, they are not overwritten by each other, and hence merge conflicts arise.
 Hey!<br>
 This is Raghav Goel.<br>
 My  <a href = ""https://github.com/raghavgoel25"">Github Profile</a>
