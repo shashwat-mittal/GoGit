@@ -1,3 +1,7 @@
+### Ques-1 How and why merge conflicts arise?
+
+**Ans-1** According to me, merge conflicts arise when two different changes on the same line occurs in a file. Eg. merging 2 branches. However git cannot solve it automatically, thus its the work of the developer to consider which changes he likes to keep.
+
 Hey !!! <br/>
 James this side , 2nd yr student from IITBHU <br/>
 My git repo <a href = "https://github.com/james3gh/go-git-jt">Link</a> <br/>
