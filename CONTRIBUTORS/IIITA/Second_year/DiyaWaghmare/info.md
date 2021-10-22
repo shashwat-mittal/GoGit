@@ -13,3 +13,5 @@ Web Development
 Method to delete last commit:
 git reset commitid^ --hard (Reset the branch to the particular commit)
 git push origin -f (Force push it to remote repository)
+
+2. Force pushing is not a good practice because it may cause conflicts for others working in that repository and it may overwrite someone else's commit. When we did it was fine because we were the only ones working on our repositories.
