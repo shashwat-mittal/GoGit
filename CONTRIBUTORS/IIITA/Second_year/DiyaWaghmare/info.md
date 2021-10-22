@@ -1,3 +1,5 @@
+1. Merge conflicts arise when there are two different changes on the same line or same section of code so Git can't tell which chnages to include and which to remove.
+
 Hey, my name is Diya Waghmare. 
 I am a developer and student of IIIT Allahabad. 
 My Github profile link is: https://github.com/diyawaghmare 
