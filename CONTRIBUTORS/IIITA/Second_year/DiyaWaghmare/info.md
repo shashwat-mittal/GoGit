@@ -17,3 +17,5 @@ git push origin -f (Force push it to remote repository)
 2. Force pushing is not a good practice because it may cause conflicts for others working in that repository and it may overwrite someone else's commit. When we did it was fine because we were the only ones working on our repositories.
 
 3. git bisect, git hooks, git submodules
+
+If we had added all 3 answers at the end we would have only one hunk to edit while adding commits intsead of two hunks.
