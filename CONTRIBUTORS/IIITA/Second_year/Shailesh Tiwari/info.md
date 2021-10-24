@@ -1,3 +1,5 @@
+Ans1) Merge conflicts happen when people make different changes to the same line of the same file, or when one person edits a file and another person deletes the same file. And when the differences of 2 or more commits coincide then a merge conflict takes place.
+
 Hi this is SHailesh Tiwari!
 This is my profile https://github.com/shlesh
 
