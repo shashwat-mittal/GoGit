@@ -11,3 +11,6 @@ ssh keys are almost impossible to hack.
 
 How to edit last commit message using git?
 The git commit --amend command allows you to change the most recent commit message.
+
+Ans2) Normally, it is not a good practice (unless you are the only one using the repo) otherwise it can cause all sorts of issues for the other collaborators. It was alright for us in opencode as we would be making separate PR's thus it wouldnt conflict, but in a general use case its not good practice.
+
