@@ -18,7 +18,7 @@ There are two cases :
 ## Issue : 366
 First commit. We will go to the file state in first commit and checkout to new branch. then we will come to master and hard reset to the previous branch head.
 
-
+ans-2 : yes. force pushing is bad practice because it modifies git history and lead other users become out of sync. We may overwrite someone else's commits and cause merge conflicts for others. It did'nt cause any problem in our case because we were the one working on our repositories.  
 
 
 
