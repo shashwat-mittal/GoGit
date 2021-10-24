@@ -20,7 +20,7 @@ First commit. We will go to the file state in first commit and checkout to new b
 
 ans-2 : yes. force pushing is bad practice because it modifies git history and lead other users become out of sync. We may overwrite someone else's commits and cause merge conflicts for others. It did'nt cause any problem in our case because we were the one working on our repositories.  
 ans-3 : I think the git bisect isn't used in any task. 
-
+top commit : If we had all the three ans at the end of the file, we would need to manually edit the hunks to only contain one answer and then commit the changes.
 
 
 
