@@ -30,3 +30,12 @@ https://www.udemy.com/course/the-web-developer-bootcamp/
 Force push is generally not advisable. Suppose it is a common repository with many people working on it, force pushing, when changing the history of the remote can lead to other users being out of sync and not being able to collaborate properly. It was okay for use to do it because we alone worked on our repositories.
 
 Reordering a Commit.
+Title- Reodering a Commit
+Description:
+In your main branch ,answer two questions. Q1)Why would one ever need to ever reorder his commits? Q2) Is reordering your commits a good practice? If not, when?
+Commit these changes.
+Make a new branch now.Split this commit into two commits. 
+Make another new branch, and cherry pick these commits. 
+Now reorder these commits so that the commit for Q2 is before the commit for Q1.Push these changes,and make a PR. 
+Now when you go to the PR, you may find that the order of commits shown there is not the order you had set. Find out why. Answer this as Q3, and commit this change too. 
+NOTE: The total number of commits on the PR should be 2 only ;)
