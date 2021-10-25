@@ -31,3 +31,17 @@ Force push is generally not advisable. Suppose it is a common repository with ma
 
 Reordering a Commit.
 If we had written all the three answers in the end, while editing the not exist commit and using the git add -p command, we would have had only one hunk to edit instead  of two, and we would have had to edit that hunk three times.
+
+Title- Reorder the commits.
+
+Description:
+
+First, you have to make two commits, each containing the answer to the respective question. The title for the first commit should be "one" and that for the second commit should be "two". You can add the descriptions if you want. <br>
+Ques 1 - Why would one ever need to ever reorder his commits? <br>
+Ques 2 - What are Git Submodules? Why are they used?
+
+After commiting your changes, make a PR.
+Now, reorder both these commits and then again push your changes. Remember that you are not allowed to use cherry pick, squashing, reseting and reverting to reorder the commits.
+
+NOTE: The total number of commits on the PR should be 2 only ;)
+
