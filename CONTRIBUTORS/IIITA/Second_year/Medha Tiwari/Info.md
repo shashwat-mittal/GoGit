@@ -48,3 +48,9 @@ But when we are the single person working on the issues or in a particular direc
 #### Ans 3 for issue -[409](https://github.com/opencodeiiita/GoGit/issues/409)
 Well, I can't think of one right now. Just for the sake of answering
 refer [this](https://www.atlassian.com/git/tutorials/dotfiles)
+
+<hr>
+
+#### What changes to your procedure of doing this task will happen if I told you to write all first three answers (Ans - 1, 2, 3) at the end of the file.
+
+Only change I observed was that if all the answers were written continuously then git will not consider them as separate hunks and we have to manually edit the patch two times(first for ans-1 and ans-2 and second for ans-2 and ans-3) compared to now when I have just edited that one time (for ans-2 and ans-3).
