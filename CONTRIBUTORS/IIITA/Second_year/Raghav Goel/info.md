@@ -30,14 +30,15 @@ https://www.udemy.com/course/the-web-developer-bootcamp/
 Force push is generally not advisable. Suppose it is a common repository with many people working on it, force pushing, when changing the history of the remote can lead to other users being out of sync and not being able to collaborate properly. It was okay for use to do it because we alone worked on our repositories.
 two
 Reordering a Commit.
-Title- Reodering a Commit
-Description:
-In your main branch ,answer two questions. Q1)Why would one ever need to ever reorder his commits? Q2) Is reordering your commits a good practice? If not, when?
-Commit these changes.
-Make a new branch now.Split this commit into two commits. 
-Make another new branch, and cherry pick these commits. 
-Now reorder these commits so that the commit for Q2 is before the commit for Q1.Push these changes,and make a PR. 
-Now when you go to the PR, you may find that the order of commits shown there is not the order you had set. Find out why. Answer this as Q3, and commit this change too. 
-NOTE: The total number of commits on the PR should be 2 only ;)
 
-one
+Title- Reodering a Commit
+
+Description:
+
+In the main branch, you have to make two commits, each containing the answer to the respective question. The title for the first commit should be "one" and that for the second commit should be "two". You can add the descriptions if you want.
+The first question is, Q1)Why would one ever need to ever reorder his commits? Q2) What are Git Submodules? Why are they used?
+Now create another branch,Reorder. 
+Reorder these commits in that branch. You are not allowed to use cherry pick to reorder the commits.
+The commit for Q2 should be before the commit for Q1. Try to avoid merge conflicts if you can.
+Push these changes,and make a PR. 
+NOTE: The total number of commits on the PR should be 2 only ;)
