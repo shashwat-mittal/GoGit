@@ -1,3 +1,4 @@
+answer1) Merge conflicts arise when there are conflicting changes on the same region of file / same lines, because git can't distinguish which one to keep and which to remove.
 
 Hey !
 Tanushree this side, sophomore at IIIT Allahabad.
