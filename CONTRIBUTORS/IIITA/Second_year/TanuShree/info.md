@@ -1,3 +1,4 @@
+answer1) Merge conflicts arise when there are conflicting changes on the same region of file / same lines, because git can't distinguish which one to keep and which to remove.
 
 Hey !
 Tanushree this side, sophomore at IIIT Allahabad.
@@ -15,3 +16,9 @@ How to edit commit message:-
  you can amend the commit message with the git commit --amend command.
 2)If the commit is pushed:Follow the above steps and use -push --force.
 Ans2->Coding in Flow, CodingWithMitch, etc.
+
+answer2) No, force push is not a good practice because it may overwrite any changes made by some other person pushing in the meantime. When we did our tasks, this practice was okay beacuse we were working on our own repo.
+
+answer3) git mv - to rename a git file, git submodules.
+
+ans) If we have written all the 3 answers at the end then we would have only one hunk to edit instead of two and we have had to make changes three times.
