@@ -1,3 +1,6 @@
+q1: when there are different changes in the same part of the file, git doesn't no which change should be merged 
+so it presents us the merge conflicts.
+
 Hi there!<br>
 It's Vineeth Kumar Munigyala this side<br>
 My Github Handle [VineethKumarM](https://github.com/VineethKumarM)<br>
@@ -24,6 +27,21 @@ ANSWER: as per the instructions i will be making 2 commits and i will remove/del
 
 Ques - Resources that you follow to learn the above tech-stacks?
 ANSWER: Youtube, Udemy and sometimes articles/blogs on the Internet.
+
+
+q2: force push is not recommended. when we force push git overwrites the recent commits,
+it may result in loss of others work.we have used force push in the gogit tasks as only I am working in my repository.
+
+
+q3: git submodules.
+
+
+
+
+q4: there wont be much change in the procedure, if we added all answers at end then we are presented a 
+single hunk to edit. then we would have separated that hunk into three and make the respective commits
+one by one.
+
 
 
 
