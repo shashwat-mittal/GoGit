@@ -38,6 +38,16 @@ q3: git submodules.
 
 
 
+q4: there wont be much change in the procedure, if we added all answers at end then we are presented a 
+single hunk to edit. then we would have separated that hunk into three and make the respective commits
+one by one.
+
+
+
+
+
+
+
 
 
 
