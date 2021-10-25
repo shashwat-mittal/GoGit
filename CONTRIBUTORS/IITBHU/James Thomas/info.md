@@ -23,3 +23,8 @@ To know more, <a href = "https://github.com/james3gh">click here</a>.
 git commit --amend -m "title" -m "description" . <br />
 You can also write the commit message in vi editor using amend command.
 However using this command makes a new commit hash, so one need to force push it to be reflected in remote repo.
+
+### Ques-2 Is force push a good practice? Yes/No why? In most of the tasks on this repo, you used force push, so why this practice is Okay (neither good nor bad) in your case?
+
+**Ans-2** Force push is not a good practice though as it changes the git commit history. The other contributors working on a project can face issue due to this.
+In our case, as working on the individual named files, doesn't make any change to the files of other contributors. Moreover, in our case we as individul were working on our own repositories. The owner of the repo if force pushed the changes then all the other contributors working on the repo may loose some data.
