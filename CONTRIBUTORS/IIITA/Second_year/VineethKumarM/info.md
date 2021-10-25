@@ -29,6 +29,9 @@ Ques - Resources that you follow to learn the above tech-stacks?
 ANSWER: Youtube, Udemy and sometimes articles/blogs on the Internet.
 
 
+q2: force push is not recommended. when we force push git overwrites the recent commits,
+it may result in loss of others work.we have used force push in the gogit tasks as only I am working in my repository.
+ 
 
 
 
