@@ -28,7 +28,7 @@ making it less vulnerable to hacking.
 OnlineResources
 https://www.udemy.com/course/the-web-developer-bootcamp/
 Force push is generally not advisable. Suppose it is a common repository with many people working on it, force pushing, when changing the history of the remote can lead to other users being out of sync and not being able to collaborate properly. It was okay for use to do it because we alone worked on our repositories.
-
+two
 Reordering a Commit.
 Title- Reodering a Commit
 Description:
