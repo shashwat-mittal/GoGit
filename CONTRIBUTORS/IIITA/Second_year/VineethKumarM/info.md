@@ -1,3 +1,6 @@
+q1: when there are different changes in the same part of the file, git doesn't no which change should be merged 
+so it presents us the merge conflicts.
+
 Hi there!<br>
 It's Vineeth Kumar Munigyala this side<br>
 My Github Handle [VineethKumarM](https://github.com/VineethKumarM)<br>
