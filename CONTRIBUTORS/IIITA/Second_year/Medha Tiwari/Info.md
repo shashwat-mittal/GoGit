@@ -1,3 +1,7 @@
+#### Ans 1 for issue -[409](https://github.com/opencodeiiita/GoGit/issues/409)
+In my opinion, merge conflicts arise when a change in single location is done at two places at the same time. Scenarios could be two people working in the same file or a single person working on the location in diffrent branches.
+<hr>
+
 Hey, Medha this side.
 <br>
 I am a sophormore at IIIT Allahabad.
