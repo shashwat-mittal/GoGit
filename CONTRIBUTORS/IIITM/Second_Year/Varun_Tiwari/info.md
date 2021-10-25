@@ -1,3 +1,5 @@
+ans-1 : it arises when git cannot merge changes automatically. like while doing the cherry-pick task, we faced merge conflicts because while cherry-picking we changes the text in the same lines and git cannot understand which change to  preserve while merging. 
+
 ### Hey, I'm Varun Tiwari
 I am a student of ABV-IIITM, Gwalior.
 To know more about me [visit here](https://github.com/varunKT001)
@@ -16,8 +18,9 @@ There are two cases :
 ## Issue : 366
 First commit. We will go to the file state in first commit and checkout to new branch. then we will come to master and hard reset to the previous branch head.
 
-
-
+ans-2 : yes. force pushing is bad practice because it modifies git history and lead other users become out of sync. We may overwrite someone else's commits and cause merge conflicts for others. It did'nt cause any problem in our case because we were the one working on our repositories.  
+ans-3 : I think the git bisect isn't used in any task. 
+top commit : If we had all the three ans at the end of the file, we would need to manually edit the hunks to only contain one answer and then commit the changes.
 
 
 
