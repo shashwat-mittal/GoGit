@@ -38,3 +38,9 @@ OR
 
 git commit --amend -m"commit message"
 Answer 2> freecodecamp.org, reading docs
+<hr>
+
+#### Ans 2 for issue -[409](https://github.com/opencodeiiita/GoGit/issues/409)
+As in general force push is not considered to be a good practice when several people are working on the same issues. It overwrites the commits which may result into loosing commits hence the track of the contribution.
+But when we are the single person working on the issues or in a particular directory that in most case is independent (as the most of the tasks/issues in this repo), we can use it to change our commit message, squashing (after pushing it to remote) etc.
+<hr>
