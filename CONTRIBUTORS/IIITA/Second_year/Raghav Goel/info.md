@@ -14,7 +14,7 @@ making it less vulnerable to hacking.
  The following commands should be executed:-
  1.git commit --amend -m "New message" 
  2.git push --force repository-name branch-name
- If you are not sure whether someone has cloned your repository after your latest commit, instead of the second command, us
+ If you are not sure whether someone has cloned your repository after your latest commit, instead of the second command, use.
  git push --force-with-lease repository-name branch-name
  This command will abort the push if there are any upstream changes to the repository, whereas the --force command will destroy any changes.
 
@@ -28,8 +28,9 @@ making it less vulnerable to hacking.
 OnlineResources
 https://www.udemy.com/course/the-web-developer-bootcamp/
 Force push is generally not advisable. Suppose it is a common repository with many people working on it, force pushing, when changing the history of the remote can lead to other users being out of sync and not being able to collaborate properly. It was okay for use to do it because we alone worked on our repositories.
-two
+
 Reordering a Commit.
+If we had written all the three answers in the end, while editing the not exist commit and using the git add -p command, we would have had only one hunk to edit instead  of two, and we would have had to edit that hunk three times.
 
 Title- Reorder the commits.
 
@@ -43,3 +44,4 @@ After commiting your changes, make a PR.
 Now, reorder both these commits and then again push your changes. Remember that you are not allowed to use cherry pick, squashing, reseting and reverting to reorder the commits.
 
 NOTE: The total number of commits on the PR should be 2 only ;)
+
