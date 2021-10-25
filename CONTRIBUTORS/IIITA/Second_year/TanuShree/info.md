@@ -16,3 +16,5 @@ How to edit commit message:-
  you can amend the commit message with the git commit --amend command.
 2)If the commit is pushed:Follow the above steps and use -push --force.
 Ans2->Coding in Flow, CodingWithMitch, etc.
+
+answer2) No, force push is not a good practice because it may overwrite any changes made by some other person pushing in the meantime. When we did our tasks, this practice was okay beacuse we were working on our own repo.
