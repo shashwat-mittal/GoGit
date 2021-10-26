@@ -38,7 +38,23 @@ web developement
 youtube: freecodecamp
 
 
-
+so first I used git log to see the last commit on 14 october because we know that no bug was there at that time
+Then I copied the commit hash of the last commit of 14 october and used: 
+git bisect start HEAD <commit hash>
+This starts git bisect and test each commit for a bug. we will use
+git grep 'bug'
+this will find all files by matching if file contains 'bug'.
+If we do not find a file we will tell bisect to mark the commit as good: 
+git bisect good
+But if we find the file with bug, we will use
+git bisect bad
+Upon finding a bad commit, git puts us on the same commit we marked bad
+then we can copy the commit hash and use
+git bisect reset
+This will put us on the head from where we started
+Now we can revert the changes of the bad commit using 
+git revert <bad commit hash>
+This is the best method to find bug because we can move to individual commits and test the code for bugs and can revert the changes if bug is found. 
 
 
 
