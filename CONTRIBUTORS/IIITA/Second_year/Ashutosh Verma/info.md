@@ -46,3 +46,6 @@ Force push is bad as it replace the remote history with local history. Whenever 
 ## Que3(issue-409) Name anyone Git or Github topic on which any issue is not made on this repo. 
 ## Ans:
 How to add different remote repo to our own repo locally to perform fetch opteration.
+## Que4(issue-409) Ques - What changes to your procedure of doing this task will happen if I told you to write all first three answers (Ans - 1, 2, 3) at the end of the file.
+## Ans: 
+If we add all ans to end then we have only one hunk to edit not two.
