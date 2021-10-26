@@ -42,4 +42,7 @@ By using commond git commit --amend and pressing enter it will open a editor in 
 
 ## Que2(issue-409)  Is force push a good practice? Yes/No why? In most of the tasks on this repo, you used force push, so why this practice is Okay (neither good nor bad) in your case?
 ## Ans::
-Force push is bad as it replace the remote history with local history. Whenever we are working on a repo  which is contribute by many users  then changing commit history can create merge conflict to other users. In our case it is okay becoz I was the only contributor.
+Force push is bad as it replace the remote history with local history. Whenever we are working on a repo  which is contribute by many users  then changing commit history can create merge conflict to other users. In our case it is okay becoz I was the only contributor. 
+## Que3(issue-409) Name anyone Git or Github topic on which any issue is not made on this repo. 
+## Ans:
+How to add different remote repo to our own repo locally to perform fetch opteration.
