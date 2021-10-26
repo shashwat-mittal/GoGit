@@ -1,3 +1,7 @@
+#### Ans 1 for issue -[409](https://github.com/opencodeiiita/GoGit/issues/409)
+In my opinion, merge conflicts arise when a change in single location is done at two places at the same time. Scenarios could be two people working in the same file or a single person working on the location in diffrent branches.
+<hr>
+
 Hey, Medha this side.
 <br>
 I am a sophormore at IIIT Allahabad.
@@ -34,3 +38,19 @@ OR
 
 git commit --amend -m"commit message"
 Answer 2> freecodecamp.org, reading docs
+<hr>
+
+#### Ans 2 for issue -[409](https://github.com/opencodeiiita/GoGit/issues/409)
+As in general force push is not considered to be a good practice when several people are working on the same issues. It overwrites the commits which may result into loosing commits hence the track of the contribution.
+But when we are the single person working on the issues or in a particular directory that in most case is independent (as the most of the tasks/issues in this repo), we can use it to change our commit message, squashing (after pushing it to remote) etc.
+<hr>
+
+#### Ans 3 for issue -[409](https://github.com/opencodeiiita/GoGit/issues/409)
+Well, I can't think of one right now. Just for the sake of answering
+refer [this](https://www.atlassian.com/git/tutorials/dotfiles)
+
+<hr>
+
+#### What changes to your procedure of doing this task will happen if I told you to write all first three answers (Ans - 1, 2, 3) at the end of the file.
+
+Only change I observed was that if all the answers were written continuously then git will not consider them as separate hunks and we have to manually edit the patch two times(first for ans-1 and ans-2 and second for ans-2 and ans-3) compared to now when I have just edited that one time (for ans-2 and ans-3).
