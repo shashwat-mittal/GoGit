@@ -19,3 +19,10 @@ git push origin -f (Force push it to remote repository)
 3. git bisect, git hooks, git submodules
 
 If we had added all 3 answers at the end we would have only one hunk to edit while adding commits intsead of two hunks.
+
+1. Create a merge commit: In this method, an extra merge commit will show along with all the other commits in that PR in our commit history. This extra merge commit gives details about which branch is being merged.
+2. Squash and merge: There is no extra merge commit in this method as all the commits in that PR gets squashed along with it. There is an option to change the commit message so that we will see only one commit in our commit history.
+3. Rebase and merge: This method rewrites git history to append changes from the branch individually, without creating a merge commit. This method should be used carefully.
+4. Merge locally: In this method you can use your command line to merge commit. After fetching remote, we use git merge --no-ff to prevent fast-forwarding a commit. This works like the 1st method and adds an extra merge commit.
+
+The first method in which we create a merge commit is the best way to do it because you can clearly see all the commits (helpful in instances where you need to find a bug) and the commit history isn't altered either.
