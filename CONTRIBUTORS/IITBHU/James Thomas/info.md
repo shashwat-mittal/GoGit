@@ -35,3 +35,11 @@ In our case, as working on the individual named files, doesn't make any change t
 ### Ques-3 Name anyone Git or Github topic on which any issue is not made on this repo. (Your answer should be different from others.
 
 **Ans-3** Working on some issue that uses some concept of detached head if added can be really helpful.
+
+Git merge - It merges the two branches either by fast forward or recursive approach. No commit is made if made by ff approach. If destination branch is ahead in some commits then, an extra commit is made to merge by recursion. But git history becomes filled with lot of commits.
+
+Git sqaush and merge - It takes all the changes but squashes all the commits into one commit. It is useful when only the changes are nessecary rather the extra commits, making commit history clean. However, no linked reference to the original commits are present in the history.
+
+Git rebase and merge - It appends all the changes from base of feature branch and put it at the end of destination branch. It does not make any extra commit. It is useful for a plain straight git history. However, it rewrites the history.
+
+Git merge --no-ff - It forces a merge commit, preventing a fast-forward commit. It makes an extra commit such that the destination branch is ahead of feature branch by 1 one merge commit. Through this, commit history is retained from branch being merged. It makes a detailed git history.
