@@ -1,3 +1,7 @@
+## Issue 431
+<b>Ques - 3 Does the merge conflicts come when you applied your stashes? Why/Why not?</b><br>
+No, the merge conflicts did not arise, because I added the 3rd question in the beginning of this file.<br>
+
 <h3>Issue 409</h3>
 <b>Ques - 1 How and why merge conflicts arise?</b><br>
 When git is unable to resolve the difference between two commits while merging those commits, a merge conflict occurs. <br>
