@@ -43,3 +43,25 @@ Git sqaush and merge - It takes all the changes but squashes all the commits int
 Git rebase and merge - It appends all the changes from base of feature branch and put it at the end of destination branch. It does not make any extra commit. It is useful for a plain straight git history. However, it rewrites the history.
 
 Git merge --no-ff - It forces a merge commit, preventing a fast-forward commit. It makes an extra commit such that the destination branch is ahead of feature branch by 1 one merge commit. Through this, commit history is retained from branch being merged. It makes a detailed git history.
+
+# Squash and Regret 🙂
+
+## Issue_Description :
+
+Create a new test.txt file in your respective <github-username> folder. Then make three commits each having respective 3 ques. Commit title of each commit should be c1,c2,c3. No commit description is required.
+
+**Q1** - Explain objects and refs folder inside ./git. Where git commits are stored in ./git folder ?
+
+**Q2** - Differentiate between tree and blob in git? What they represent ?
+
+**Q3** - Your Name and College
+
+Then squash the commit 2 and 3 into 1 . Now make a PR.
+
+Now recover back the changes made in the commit 1 only and append those changes in your info.md. You can't simply Copy and paste the changes made in commit 2 manually. Use git commands to copy the changes made in commit 2 into info.md .
+
+Moreover, show the content of commit 1 on git bash and take a screenshot of it . Commit the changes and make a PR having that screenshot.
+
+#### NOTE: The total number of commits on the PR should be 2 only and only one PR is allowed
+
+#### Write the commands in the PR message that you used to complete the task
