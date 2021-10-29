@@ -68,3 +68,6 @@ Moreover, show the content of commit 1 on git bash and take a screenshot of it .
 
 Ques 2 - What are Git Submodules? Why are they used?
 Ans 2 - Git submodules is like a git repository inside another git repo. Changes made in submodules are not tracked by main repo. It is useful to have some separate projects inside a git repo if the projects is much complex. This make the projects divide into small modules to work upon.
+
+Ques 1 - Why would one ever need to ever reorder his commits?
+Ans 1 - Reordering commits makes a clearer and understandable git history. It makes the developer understand their code changes in a uniform and time-based manner. It also helps to push some particular commits by changing the order.
