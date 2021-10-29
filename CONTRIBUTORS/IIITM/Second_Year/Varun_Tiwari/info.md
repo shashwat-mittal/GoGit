@@ -97,3 +97,8 @@ git merge main-copy
 git checkout main-copy
 git merge --no-ff b4
 git push origin main-copy
+
+Ques - 3 Does the merge conflicts come when you applied your stashes? Why/Why not?
+Yes, they came. Because I answered the question 1 and added question 3 at the same line. So when I tried to apply the stash second time, there was a merge conflict. I resolved the merge conflict and the committed the changes. 
+Ques - 1 Why do we do fetch before the merge or pull?
+while using git pull, git takes the changes on the remote repo and tries to automatically merge them to our local copy. But if we want to review the changes first, we cannot do that with git pull. That's where we use git fetch. git fetch command searches for changes and commits on the remote (which are not on our local copy) and saves them without automatically merging. We can review the changes before we merge them. 
