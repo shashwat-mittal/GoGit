@@ -65,3 +65,6 @@ Moreover, show the content of commit 1 on git bash and take a screenshot of it .
 #### NOTE: The total number of commits on the PR should be 2 only and only one PR is allowed
 
 #### Write the commands in the PR message that you used to complete the task
+
+Ques 2 - What are Git Submodules? Why are they used?
+Ans 2 - Git submodules is like a git repository inside another git repo. Changes made in submodules are not tracked by main repo. It is useful to have some separate projects inside a git repo if the projects is much complex. This make the projects divide into small modules to work upon.
