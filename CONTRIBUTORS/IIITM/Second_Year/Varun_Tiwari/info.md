@@ -102,3 +102,12 @@ Ques - 3 Does the merge conflicts come when you applied your stashes? Why/Why no
 Yes, they came. Because I answered the question 1 and added question 3 at the same line. So when I tried to apply the stash second time, there was a merge conflict. I resolved the merge conflict and the committed the changes. 
 Ques - 1 Why do we do fetch before the merge or pull?
 while using git pull, git takes the changes on the remote repo and tries to automatically merge them to our local copy. But if we want to review the changes first, we cannot do that with git pull. That's where we use git fetch. git fetch command searches for changes and commits on the remote (which are not on our local copy) and saves them without automatically merging. We can review the changes before we merge them. 
+<<<<<<< HEAD
+=======
+
+Ques 1 - Why would one ever need to ever reorder his commits?
+ans : sometimes a particular order of commits make more sense. It may used when we need to push only one commit to the remote.
+
+Ques 2 - What are Git Submodules? Why are they used?
+ans : git submodules is a record in our repository which is pointing to a specific commit in some other repository. In some cases, where the external repository changes very frequently, incorporating changes may become difficult and could also break our application or api. Thats why we use git submodules to point to a specific commit and lock its code at a particular commit. 
+>>>>>>> 03e4b8a (two)
