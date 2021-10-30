@@ -115,3 +115,7 @@ To go back to a commit we can use => git checkout <COMMIT_HASH>
 Or we can use the same checkout command by specifying a branch name => git checkout <BRANCH_NAME>
 So the branch name is just a reference to a commit on top of that branch. The ref folder inside .git folder is used to store these references. 
 As said earlier every event is stored as a hash in object folder, so all the commits also reside here. 
+
+Q2 - Differentiate between tree and blob in git? What they represent?
+ans : the working tree in git is the directry in which all our files are placed. whenever, there is any change in the tree, git index the changes and we can then stage and commit them. 
+A blob is a type of object used to store the contents of each file in a repository. the blog contains the hash of the files. these blobs are used by git to track and store changes in the working tree.
