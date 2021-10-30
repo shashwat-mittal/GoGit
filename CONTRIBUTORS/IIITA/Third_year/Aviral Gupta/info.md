@@ -1,3 +1,7 @@
+## Issue 431
+<b>Ques - 3 Does the merge conflicts come when you applied your stashes? Why/Why not?</b><br>
+No, the merge conflicts did not arise, because I added the 3rd question in the beginning of this file.<br>
+
 <h3>Issue 409</h3>
 <b>Ques - 1 How and why merge conflicts arise?</b><br>
 When git is unable to resolve the difference between two commits while merging those commits, a merge conflict occurs. <br>
@@ -53,3 +57,8 @@ Since, there were only 3 answers, I made the changes manually by pasting each qu
 If ```git add -p``` were to be used:<br>
 1. there would have been 2 hunks in this issue, and only the 2nd hunk would have to be manually edited.<br>
 2. if all the answers were at the end of the file, there would have been only one hunk, therefore this hunk would have to manually edited 3 times.
+
+## Issue 431
+<b>Ques - 1 Why do we do fetch before the merge or pull?</b><br>
+Before working on a new feature, we generally would want to work on top of the features already made by other contributors. To retrieve these changes from the remote repo, we do a fetch & merge or pull.
+
