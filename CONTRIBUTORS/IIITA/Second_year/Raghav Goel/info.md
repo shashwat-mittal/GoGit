@@ -17,8 +17,8 @@ making it less vulnerable to hacking.
  If you are not sure whether someone has cloned your repository after your latest commit, instead of the second command, use.
  git push --force-with-lease repository-name branch-name
  This command will abort the push if there are any upstream changes to the repository, whereas the --force command will destroy any changes.
-
-
+The main reason to reorder a commit is to improve your git history, so that when the commits are in 
+a particular order, they make more sense to the user and to a person viewing it.
  How to delete a commit?
  I will use git reset --hard HEAD^ to delete the latest commit i will have made.
  
@@ -50,3 +50,4 @@ In general for this method, the repo needs to allow Squash and Merge option.
 3.Rebase and Merge: In this method, the commit history is altered, i.e the commits of the PR are added individually, but without a merge commit. It can be useful in cases where a small commit needs to be added to a big project.
 In general for this method, the repo needs to allow the Rebase and merge option.
 4.Locally merging a commit. In this, first you have to fetch the remote into the local clone to make sure the references are updated. If the branch(B) from which the PR was created already exists, you can simply merge that into the target branch(A) using git merge B(this will not add a merge commit, the heads of A and B will be same, and the PR will close automatically.) If you merge B using git merge --no-ff, then a merge commit will also be added. 
+GitSubmodules basically allows you to keep one repository as the sub-repository of another repository.It is very useful if one wants to incorporate a specific feature,code or commit from another repository,hence you won't have to use external packagement systems in which it is a hassle to manage installations.
