@@ -48,23 +48,22 @@ Git merge --no-ff - It forces a merge commit, preventing a fast-forward commit. 
 
 ## Issue_Description :
 
-Create a new test.txt file in your respective <github-username> folder. Then make three commits each having respective 3 ques. Commit title of each commit should be c1,c2,c3. No commit description is required.
+First make two commits in your info.md file each having respective answers to the questions. Commit title of each commit should be `<GitHub-username>-one` and `<GitHub-username>-two`. No commit description is required.
 
-**Q1** - Explain objects and refs folder inside ./git. Where git commits are stored in ./git folder ?
+**Q1** - Explain objects and refs folder inside ./git. Where git commits are stored in ./git folder?
 
-**Q2** - Differentiate between tree and blob in git? What they represent ?
+**Q2** - Differentiate between tree and blob in git? What they represent?
 
-**Q3** - Your Name and College
+Then squash both the commits into one. Title of squash commit can be anything.
 
-Then squash the commit 2 and 3 into 1 . Now make a PR.
+### NOTE: After cloning, one can use only 3 git commands uptil squashing the commits. (Even git status will get count)
 
-Now recover back the changes made in the commit 1 only and append those changes in your info.md. You can't simply Copy and paste the changes made in commit 2 manually. Use git commands to copy the changes made in commit 2 into info.md .
+Now make a `new_Branch`. Delete the squash commit from that branch.
+Now recover back the changes made in the commit 1 and 2 **individually** by cherry picking. i.e. first cherry-pick the 1st commit `<GitHub-username>-one`, then cherry-pick the 2nd commit `<GitHub-username>-two` into the `new_Branch`. Solve merge-conflicts if any.
 
-Moreover, show the content of commit 1 on git bash and take a screenshot of it . Commit the changes and make a PR having that screenshot.
+Now make a PR from this `new_Branch`.
 
 #### NOTE: The total number of commits on the PR should be 2 only and only one PR is allowed
-
-#### Write the commands in the PR message that you used to complete the task
 
 Ques 2 - What are Git Submodules? Why are they used?
 Ans 2 - Git submodules is like a git repository inside another git repo. Changes made in submodules are not tracked by main repo. It is useful to have some separate projects inside a git repo if the projects is much complex. This make the projects divide into small modules to work upon.
