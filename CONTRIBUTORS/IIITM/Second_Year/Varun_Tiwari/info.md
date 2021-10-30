@@ -108,3 +108,10 @@ ans : sometimes a particular order of commits make more sense. It may used when 
 
 Ques 2 - What are Git Submodules? Why are they used?
 ans : git submodules is a record in our repository which is pointing to a specific commit in some other repository. In some cases, where the external repository changes very frequently, incorporating changes may become difficult and could also break our application or api. Thats why we use git submodules to point to a specific commit and lock its code at a particular commit. 
+
+Q1 - Explain objects and refs folder inside ./git. Where git commits are stored in ./git folder?
+ans : every event in git is saved as a hash value in object folder. It stores the data about what are the files, where are the located, etc. In git, we deal with commits, be it in main branch or some other branch. Inspite of using commit hashes, we can specify a commit reference. For example : 
+To go back to a commit we can use => git checkout <COMMIT_HASH>
+Or we can use the same checkout command by specifying a branch name => git checkout <BRANCH_NAME>
+So the branch name is just a reference to a commit on top of that branch. The ref folder inside .git folder is used to store these references. 
+As said earlier every event is stored as a hash in object folder, so all the commits also reside here. 
