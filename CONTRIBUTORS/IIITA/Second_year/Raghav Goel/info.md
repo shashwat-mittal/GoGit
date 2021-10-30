@@ -17,8 +17,8 @@ making it less vulnerable to hacking.
  If you are not sure whether someone has cloned your repository after your latest commit, instead of the second command, use.
  git push --force-with-lease repository-name branch-name
  This command will abort the push if there are any upstream changes to the repository, whereas the --force command will destroy any changes.
-
-
+The main reason to reorder a commit is to improve your git history, so that when the commits are in 
+a particular order, they make more sense to the user and to a person viewing it.
  How to delete a commit?
  I will use git reset --hard HEAD^ to delete the latest commit i will have made.
  
