@@ -22,3 +22,6 @@ answer2) No, force push is not a good practice because it may overwrite any chan
 answer3) git mv - to rename a git file, git submodules.
 
 ans) If we have written all the 3 answers at the end then we would have only one hunk to edit instead of two and we have had to make changes three times.
+
+Ques - 3 Does the merge conflicts come when you applied your stashes? Why/Why not?
+ans - No, I haven't got any merge conflicts since I've included Ques-1 at the start of file and Ques-3 at the end of file.
