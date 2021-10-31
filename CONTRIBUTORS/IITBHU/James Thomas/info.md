@@ -73,3 +73,6 @@ Ans 1 - Reordering commits makes a clearer and understandable git history. It ma
 
 **Ques - 3 Does the merge conflicts come when you applied your stashes? Why/Why not?** <br/>
 **Ans - 3** Yes merge conflict arised as the changes made by me on ques 1 and ques 3 were on the same line of the file after applying stashing .
+
+**Ques - 1 Why do we do fetch before the merge or pull?** <br/>
+**Ans - 1** Git fetch collects all the changes made in the remote repo to one's local repo. It doesn't make any local changes to your repo. Through git fetch one can see all the branches and changes made in the remote repo without disturbing your local changes. Then though git merge it changes the local changes acc. to the remote repo's changes
