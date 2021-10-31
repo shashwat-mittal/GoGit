@@ -1,3 +1,7 @@
+Ques - 1 Why do we do fetch before the merge or pull?
+ans - Using git pull, all the changes are made to our local repo without letting us check those codes before merge.But, if we use git fetch, then we would be able to review the changes before merging. So, this is why we use fetch before merge.
+
+
 answer1) Merge conflicts arise when there are conflicting changes on the same region of file / same lines, because git can't distinguish which one to keep and which to remove.
 
 Hey !
