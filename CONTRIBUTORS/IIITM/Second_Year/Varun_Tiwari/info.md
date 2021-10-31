@@ -109,6 +109,9 @@ ans : sometimes a particular order of commits make more sense. It may used when 
 Ques 2 - What are Git Submodules? Why are they used?
 ans : git submodules is a record in our repository which is pointing to a specific commit in some other repository. In some cases, where the external repository changes very frequently, incorporating changes may become difficult and could also break our application or api. Thats why we use git submodules to point to a specific commit and lock its code at a particular commit. 
 
+Ques - What is a GitHub gpg key? Why it is used? Also, tell that why we need to sign the commits?
+ans : github gpg key is a public key used by github to verify the signature of the commits. When we sign a commit using our private gpg key and push the changes to github, github first checks the signature using the public gpg key, and if the signature is verified, we get a verified commit. Signing commits is important so as to verify the identity of the commiter. 
+
 Q1 - Explain objects and refs folder inside ./git. Where git commits are stored in ./git folder?
 ans : every event in git is saved as a hash value in object folder. It stores the data about what are the files, where are the located, etc. In git, we deal with commits, be it in main branch or some other branch. Inspite of using commit hashes, we can specify a commit reference. For example : 
 To go back to a commit we can use => git checkout <COMMIT_HASH>
