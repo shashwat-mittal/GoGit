@@ -27,6 +27,6 @@ If we had added all 3 answers at the end we would have only one hunk to edit whi
 
 The first method in which we create a merge commit is the best way to do it because you can clearly see all the commits (helpful in instances where you need to find a bug) and the commit history isn't altered either.
 
-
-
 Ques 3. Yes I will get merge conflicts because I've written the answer for ques 1 and ques 3 in the same section of my markdown file.
+
+Ques 1. Git pull doesn't let you review the changes that you are pulling from the remote repo to your local copy. Fetching changes allows us to review those changes before merging or pulling them (otherwise we may lose the changes in our local copy and they may be overwritten).
