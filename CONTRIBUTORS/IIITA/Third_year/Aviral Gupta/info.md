@@ -70,4 +70,3 @@ Main use of it I found was to integrate the work of two different parties. One c
 
 <b>Ques 1 - Why would one ever need to ever reorder his commits?</b><br>
 Reordering of commits is done, if the commits makes more sense in reordered form or if the commits are to be squashed.
-
