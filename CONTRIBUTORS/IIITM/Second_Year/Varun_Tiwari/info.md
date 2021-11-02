@@ -125,3 +125,8 @@ A blob is a type of object used to store the contents of each file in a reposito
 
 Ques - 1 What if you clone without fork? What problems will you face when you try to contribute in this condition?
 ans : cloning is simply get a copy of the remote repository to the local system, while forking creates a copy as well as maintains sync with the original repository. If we clone without fork, I become dificult to sync the changes between local and remote. Also If we want to contribute to a project, just cloning is a bad choice. We won't be able to create any pull to the remote repository because we would not have any collaborators access. The owner of the repository needs to add us as a collaborator for us to make  changes. While in forking we can make our changes and create a pull request easily without and hassle. Also forking helps us maintain sync with the two repositories.  
+
+Ques - 2 Can we undo a hard reset of a commit? If No/Yes why?
+ans : yes we can do a hard reset and get the commits back. Git stores all the history of every event permanently. The event related to the HEAD are stored as references in .git/refs folder. We can view the reference logs using : 
+git reflog
+This will show all the changes that occured. Now we can copy the commit hash of the commits we want and the can use cherry-pick to get the changes back. 
