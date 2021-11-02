@@ -32,3 +32,5 @@ We use git Submodules when we might need to use the contents of one repository i
 Ques 1. Git pull doesn't let you review the changes that you are pulling from the remote repo to your local copy. Fetching changes allows us to review those changes before merging or pulling them (otherwise we may lose the changes in our local copy and they may be overwritten).
 
 Forking is always recommended as it allows you to make changes without affecting the remote repository and can be reviewed before merging it. We can't directly clone and then merge if we are not a contributor in that particular repo with commit access and permission to create branches.
+
+Yes, we can undo a hard reset of a commit using reflog (to see a list of all the changes made in your branch recently). GitHub has the history of all the commits and we can find the commit that we had reset and undo it.
