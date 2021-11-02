@@ -30,3 +30,5 @@ We would have to reorder our commits so that it could be interpreted better in t
 Ques 3. Yes I will get merge conflicts because I've written the answer for ques 1 and ques 3 in the same section of my markdown file.
 We use git Submodules when we might need to use the contents of one repository in another so we make that repository a sub directory(submodule) in the main repo.
 Ques 1. Git pull doesn't let you review the changes that you are pulling from the remote repo to your local copy. Fetching changes allows us to review those changes before merging or pulling them (otherwise we may lose the changes in our local copy and they may be overwritten).
+
+Forking is always recommended as it allows you to make changes without affecting the remote repository and can be reviewed before merging it. We can't directly clone and then merge if we are not a contributor in that particular repo with commit access and permission to create branches.
