@@ -9,7 +9,7 @@ SSH key is a method that can be used for authentication different from normal pa
 SSH keys are more long than typically used passwords and are computer generated, making them less prone to hacking. 
  They are not stored on servers, but only the device which is being used for login, hence again
 making it less vulnerable to hacking.
- 
+ Github GPG keys are a way of verifying and signing your work. They can be used to encrypt and sign commits or tags to verify your respective contributions. It helps in verifying the identity of the person who made the commit.
  How to edit the last commit message in git?
  The following commands should be executed:-
  1.git commit --amend -m "New message" 
