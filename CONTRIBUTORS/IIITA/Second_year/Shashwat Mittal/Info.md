@@ -18,5 +18,5 @@ ans : git submodules is a record in our repository which is pointing to a specif
 
 Ques 1 - Why would one ever need to ever reorder his commits?
 ans : sometimes a particular order of commits make more sense. It may used when we need to push only one commit to the remote.
-
+done
  
