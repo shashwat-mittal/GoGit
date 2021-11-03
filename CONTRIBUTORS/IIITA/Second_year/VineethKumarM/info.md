@@ -34,7 +34,7 @@ it may result in loss of others work.we have used force push in the gogit tasks 
 
 
 q3: git submodules.
-
+git Submodules: Submodules allow you to keep a Git repository as a subdirectory of another Git repository. This lets you clone another repository into your project and keep your commits separate. These can be used when we are working on 2 projects, we want to use one within the other but they should have their own history.
 
 
 
