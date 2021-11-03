@@ -130,3 +130,40 @@ Ques - 2 Can we undo a hard reset of a commit? If No/Yes why?
 ans : yes we can do a hard reset and get the commits back. Git stores all the history of every event permanently. The event related to the HEAD are stored as references in .git/refs folder. We can view the reference logs using : 
 git reflog
 This will show all the changes that occured. Now we can copy the commit hash of the commits we want and the can use cherry-pick to get the changes back. 
+
+SECOND PART: 
+Ques - 2 Explain in detail the difference between HEAD, working tree and index, in Git.
+Ans - The hierarchy followed in the three stage architechture of git is : 
+
+WORKING TREE    INDEX      HEAD
+    | --------->  |          |
+    |(index file) | -------> |
+    |             | (commit) |
+
+Working tree : Working tree contains the file structure of our repository, i.e this is where all our files resides. It is the place where we make changes to our files (like coding a new feature, removing bugs etc.). After making changes we can move the desired files to the index (staging area). 
+
+Index : Index is the list all the files whos changes are to be committed. All the files in the index will be used when you commit your changes, and are replaced by the original files before commiting. We can also remove some files from the index, make some more neccessary changes and add them to the index again. To add a file to the git index we use the following command :
+git add <FILE_NAME> => this will add the specific file to the index
+git add . => add all the files in the working tree to the index
+To remove files from the index use the following commands : 
+git restore --staged <FILE_NAME> => remove particular file from index
+git restore --staged . => remove all the files from the index
+
+HEAD : HEAD is a reference to the last commit made in the current branch. For ex : 
+If we are on main branch then head will point to the last commit made in the main branch (here, 3)
+
+(main branch)
+1 --> 2 --> 3 (HEAD)
+      |
+      4 --> 5 --> 6 
+      (dev) 
+
+If we are on dev branch then head will point to the last commit made in the dev branch (here, 6)
+
+(main branch)
+1 --> 2 --> 3 
+      |
+      4 --> 5 --> 6 (HEAD)
+      (dev)  
+
+Also, head will be the parent of the next commit going to be made in the branch when a new commit is made the head will be updated that commit in the branch. 
