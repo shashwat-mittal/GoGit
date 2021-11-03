@@ -77,3 +77,23 @@ the flag is added so git dont make a fast forward merge. then we can push our ch
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Reorder Commits: Reordering commits is a very useful thing. We sometimes want to change their order coz they make more sense. Example I a developing a website, I added some image links and commited but i forgot the images folder. Now I csn sdd the older and reorder my commits.
+
+
