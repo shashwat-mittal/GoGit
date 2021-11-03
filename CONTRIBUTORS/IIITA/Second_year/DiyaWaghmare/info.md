@@ -31,6 +31,10 @@ Ques 3. Yes I will get merge conflicts because I've written the answer for ques 
 We use git Submodules when we might need to use the contents of one repository in another so we make that repository a sub directory(submodule) in the main repo.
 Ques 1. Git pull doesn't let you review the changes that you are pulling from the remote repo to your local copy. Fetching changes allows us to review those changes before merging or pulling them (otherwise we may lose the changes in our local copy and they may be overwritten).
 
+Forking is always recommended as it allows you to make changes without affecting the remote repository and can be reviewed before merging it. We can't directly clone and then merge if we are not a contributor in that particular repo with commit access and permission to create branches.
+
+Yes, we can undo a hard reset of a commit using reflog (to see a list of all the changes made in your branch recently). GitHub has the history of all the commits and we can find the commit that we had reset and undo it.
+
 Second half
 Ques - 2 Explain in detail the difference between HEAD, working tree and index, in Git.
 Ans. Working tree is nothing but the files you are currently working on where we can try out any chnages we want. After we are done working on our files we move it to our staging area to be committed (index).
